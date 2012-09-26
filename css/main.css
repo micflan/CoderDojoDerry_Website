@@ -10,6 +10,10 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+html {
+    min-height: 100.1%;
+}
+
 html,
 button,
 input,
@@ -94,6 +98,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+a,
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+.pageContent {
+    margin-bottom: 50px;
+}
+
+.marginBottom {
+    margin-bottom: 50px;
+}
 
 .pageWrap {
     text-align: center;
@@ -188,6 +211,17 @@ textarea {
     color: #888;
 }
 
+.nextClass a {
+    display: block;
+    font-size: 22px;
+}
+
+
+.mapFrame {
+    border-radius: 10px;
+    box-shadow: 0 0 5px #888;
+    /*border: 1px solid #888;*/
+}
 
 
 
