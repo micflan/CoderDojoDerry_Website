@@ -106,6 +106,7 @@ textarea {
 }
 
 .menu {
+    display: inline-block;
     background: #F4F4F4;
     padding-top: 10px;
     margin-top: -10px;
@@ -131,9 +132,7 @@ textarea {
 }
 
 .menu a.on {
-    background: #2F2A2B;
-    color: white;
-    box-shadow: inset 0px 2px 3px black;
+    color: #222;
 }
 
 .heroWrap {
@@ -144,6 +143,7 @@ textarea {
     overflow: hidden;
     position: relative;
     z-index: 2;
+    box-shadow: 0px 2px 3px silver;
 }
 
 .heroWrap h1 {
